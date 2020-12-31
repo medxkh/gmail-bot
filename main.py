@@ -33,5 +33,11 @@ def send_email():
 
 def get_email_info():
     talk('To whom you want to send email')
+    name = get_info()
+    talk('what is the subject of your email')
+    subject = get_info()
+    talk('Tell me the text in your email ')
+    message = get_info()
+    
 
 get_email_info()    
