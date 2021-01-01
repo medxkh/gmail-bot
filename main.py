@@ -34,7 +34,8 @@ def send_email(reciver, subject, meesage):
     email.set_content()
     server.send_message(email)
 
-def email_list = {
+email_list={
+
     'dude': 'jhomnv@gmail.com',
     'programming': 'supportflo@gmail.com',
     'bts': 'diagrammouning@gmail.com',
